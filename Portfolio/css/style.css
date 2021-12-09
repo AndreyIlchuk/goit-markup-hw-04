@@ -15,6 +15,10 @@ ul {
 button {
   border: none;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 /*top-line*/
 .section-header {
   width: 100%;
@@ -293,6 +297,7 @@ ul {
   color: #ffffff;
 }
 .mail-link {
+  padding: 9px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

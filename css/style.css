@@ -124,7 +124,7 @@ a {
 }
 /*Title-etions*/
 
-.header-title {
+.hero-title {
   width: 100%;
   background: #2f303a;
   padding: 200px 0 200px 0;
@@ -284,7 +284,6 @@ a {
   padding-bottom: 30px;
 }
 .our-team {
-  width: 1200px;
   margin: 0 auto;
   text-align: center;
   padding-top: 94px;

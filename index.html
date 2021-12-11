@@ -17,22 +17,26 @@
   <body>
     <!--Top line-->
     <section class="section-header">
-      <div class="container">
+      <div class="header-container">
         <header class="top-line">
-          <nav class="header-container">
+          <nav class="nav-container">
             <a class="top-line-link" href="https://github.com/"
               ><span class="span">Web</span>Studio</a
             >
             <ul class="top-link">
-              <li><a class="link1" href="index.html">Студия</a></li>
-              <li>
-                <a class="link2" href="Portfolio/portfolio.html">Портфолио</a>
+              <li class="item">
+                <a class="nav-link" href="index.html">Студия</a>
               </li>
-              <li><a class="link3" href="">Контакты</a></li>
+              <li class="item">
+                <a class="nav-link" href="Portfolio/portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="item"><a class="nav-link" href="">Контакты</a></li>
             </ul>
 
             <ul class="adress">
-              <li>
+              <li class="adress-item">
                 <a class="mail-link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
@@ -69,31 +73,31 @@
           <ul class="section-peculiarities">
             <h2></h2>
             <li class="feature1">
-              <h3 class="title-peculiarities-1">Внимание к деталям</h3>
+              <h3 class="title-peculiarities">Внимание к деталям</h3>
               <p class="text-peculiarities-1">
-                Идейные соображения, а также<br />
-                начало повседневной работы по формированию позиции.
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
               </p>
             </li>
             <li class="feature2">
-              <h3 class="title-peculiarities-2">Пунктуальность</h3>
+              <h3 class="title-peculiarities">Пунктуальность</h3>
               <p class="text-peculiarities-2">
-                Задача организации, в особенности<br />
-                же рамки и место обучения кадров влечет за собой.
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
               </p>
             </li>
             <li class="feature3">
-              <h3 class="title-peculiarities-3">Планирование</h3>
+              <h3 class="title-peculiarities">Планирование</h3>
               <p class="text-peculiarities-3">
-                Равным образом консультация с<br />
-                широким активом в значительной степени обуславливает.
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
               </p>
             </li>
             <li class="feature4">
-              <h3 class="title-peculiarities-4">Современные технологии</h3>
+              <h3 class="title-peculiarities">Современные технологии</h3>
               <p class="text-peculiarities-4">
-                Значимость этих проблем настолько<br />
-                очевидна, что реализация плановых заданий.
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
               </p>
             </li>
           </ul>
@@ -102,8 +106,8 @@
 
       <!--what are we doing-->
 
-      <section>
-        <div class="container">
+      <section class="container">
+        <div>
           <h2 class="title-what-are-we-doing">Чем мы занимаемся</h2>
           <ul class="what-are-we-doing-img">
             <li class="img1">
@@ -122,9 +126,8 @@
       <!--our team-->
 
       <section class="our-team">
-        <div class="container">
+        <div>
           <h2 class="title-our-team">Наша команда</h2>
-
           <ul class="team">
             <li class="team-img1">
               <img src=./img/img(3).jpg alt="Product Designer" width="270"/>
@@ -160,18 +163,23 @@
     </main>
     <!--section-footer-->
     <footer class="footer-title">
-      <div class="container">
+      <div class="footer-container">
         <a class="footer-link" href="https://github.com/"
           ><span class="span">Web</span>Studio</a
         >
-        <address class="footer-text">
-          г. Киев, пр-т Леси Украинки, 26<br />
-          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a
-          ><br />
-          <a class="footer-tel-link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </address>
+        <ul class="footer-text">
+          <li class="footer-item">г. Киев, пр-т Леси Украинки, 26</li>
+          <li class="footer-item">
+            <a class="footer-mail-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-item">
+            <a class="footer-tel-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

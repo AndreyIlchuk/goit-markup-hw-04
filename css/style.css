@@ -401,7 +401,18 @@ a {
 .social-links {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 16px 32px 30px 32px;
+}
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.link-icon {
+  fill: #afb1b8;
 }
 /*regular customers*/
 .regular-customers {

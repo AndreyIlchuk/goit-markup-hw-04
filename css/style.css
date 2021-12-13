@@ -404,7 +404,9 @@ a {
   margin: 16px 32px 30px 32px;
 }
 .social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   margin-right: 10px;

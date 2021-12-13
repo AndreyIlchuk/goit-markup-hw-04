@@ -398,6 +398,11 @@ a {
 
   color: #757575;
 }
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*regular customers*/
 .regular-customers {
   width: 100%;
@@ -421,16 +426,26 @@ a {
   width: 1200px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 .client {
   width: 170px;
-  height: 60px;
-  margin: 16px 32px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
+  height: 92px;
 }
-.customers-link:hover .svg:hover {
+.customers-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.customers-link:hover {
+  border-color: #2196f3;
+}
+.svg:hover {
   fill: #2196f3;
 }
 

@@ -97,9 +97,7 @@ a {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.mail-icon:hover {
-  color: #2196f3;
-}
+
 .mail-link:hover .mail-icon,
 .mail-link:focus .mail-icon {
   fill: #2196f3;
@@ -347,7 +345,6 @@ a {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .team-img1 {
@@ -401,6 +398,39 @@ a {
 
   color: #757575;
 }
+/*regular customers*/
+.regular-customers {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+.titl-regular-customers {
+  padding-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.customers-client {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.client {
+  margin-right: 30px;
+}
+.customers-link:hover .svg:hover {
+  fill: #2196f3;
+}
+.client {
+}
+
 /*section-footer*/
 .footer-title {
   width: 100%;

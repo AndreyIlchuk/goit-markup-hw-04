@@ -472,14 +472,13 @@ a {
   display: flex;
   align-items: baseline;
   width: 100%;
-  padding: 60px 0;
   background-color: black;
 }
 
 .footer-adress {
+  margin-left: 215px;
   display: flex;
   flex-direction: column;
-
   padding-top: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -487,7 +486,6 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 .footer-item:nth-child(2) {
@@ -535,6 +533,7 @@ a {
 }
 .footer-container {
   display: flex;
+  flex-direction: column;
   align-items: baseline;
 }
 .social-container {

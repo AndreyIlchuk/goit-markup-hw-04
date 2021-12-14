@@ -469,15 +469,11 @@ a {
 
 /*section-footer*/
 .footer-title {
+  display: flex;
+  align-items: baseline;
   width: 100%;
   padding: 60px 0;
   background-color: black;
-}
-
-.footer-container {
-  width: 1200px;
-  margin: 0 auto;
-  align-items: baseline;
 }
 
 .footer-adress {
@@ -498,6 +494,7 @@ a {
   padding: 9px 0 9px 0;
 }
 .footer-link {
+  margin-left: 215px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -541,9 +538,9 @@ a {
   align-items: baseline;
 }
 .social-container {
-  width: 206px;
-  height: 80px;
-  margin: 0 auto;
+  margin-top: 72px;
+  margin-bottom: 100px;
+  margin-left: 70px;
 }
 .foter-social-links {
   display: flex;
@@ -551,7 +548,6 @@ a {
   align-items: center;
 }
 .social-title {
-  padding-left: 25px;
   padding-bottom: 20px;
   font-family: Roboto;
   font-style: normal;

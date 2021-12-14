@@ -327,7 +327,7 @@ a {
 }
 .title {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .our-team {
   width: 100%;
@@ -401,6 +401,7 @@ a {
 .social-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 16px 32px 30px 32px;
 }
 .social-link {
@@ -409,12 +410,16 @@ a {
   justify-content: center;
   width: 44px;
   height: 44px;
-  margin-right: 10px;
   border-radius: 50%;
-  background-color: #fff;
+}
+.social-link:hover {
+  background-color: #2196f3;
 }
 .link-icon {
   fill: #afb1b8;
+}
+.link-icon:hover {
+  fill: var(--accent-color);
 }
 /*regular customers*/
 .regular-customers {

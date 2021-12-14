@@ -477,11 +477,13 @@ a {
 .footer-container {
   width: 1200px;
   margin: 0 auto;
+  align-items: baseline;
 }
 
 .footer-text {
   display: flex;
   flex-direction: column;
+
   padding-top: 20px;
   font-family: Roboto;
   font-style: normal;
@@ -533,4 +535,19 @@ a {
 }
 .footer-tel-link:hover {
   color: #2196f3;
+}
+.footer-container {
+}
+.foter-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }

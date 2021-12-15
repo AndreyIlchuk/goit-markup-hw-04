@@ -480,7 +480,9 @@ a {
   background-color: black;
 }
 .footer-container {
-  margin-left: 215px;
+  width: 1200px;
+  margin: 0 auto;
+
   display: flex;
   align-items: baseline;
 }

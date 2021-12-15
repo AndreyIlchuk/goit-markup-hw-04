@@ -51,14 +51,16 @@ button {
   color: #000;
   text-decoration: none;
 }
-.top-line-link:hover {
+.top-line-link:hover,
+.top-line-link:focus {
   color: #2196f3;
 }
 
 .top-link {
   display: flex;
 }
-.link1:hover {
+.link1:hover,
+.link1:focus {
   color: #2196f3;
 }
 .item:nth-child(1) {
@@ -80,7 +82,8 @@ button {
   text-decoration: none;
   color: #212121;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #2196f3;
 }
 
@@ -100,7 +103,8 @@ button {
 .mail-link:focus .mail-icon {
   fill: #2196f3;
 }
-.mail-link:hover {
+.mail-link:hover,
+.mail-link:focus {
   color: #2196f3;
 }
 
@@ -125,7 +129,8 @@ button {
 .tel-link:focus .tel-icon {
   fill: #2196f3;
 }
-.tel-link:hover {
+.tel-link:hover,
+.tel-link:focus {
   color: #2196f3;
 }
 .tel-link {
@@ -139,7 +144,8 @@ button {
   color: #757575;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
 .span {
@@ -176,7 +182,8 @@ button {
   border-color: #f5f4fa;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -363,13 +370,16 @@ button {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-mail-link:hover {
+.footer-mail-link:hover,
+.footer-mail-link:focus {
   color: #2196f3;
 }
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
   color: #2196f3;
 }
-.footer-tel-link:hover {
+.footer-tel-link:hover,
+.footer-tel-link:focus {
   color: #2196f3;
 }
 .footer-container {

@@ -414,6 +414,7 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 .link-icon {
   display: flex;
@@ -421,7 +422,9 @@ a {
   justify-content: center;
 }
 
-.social-link:hover,
+.social-link:hover {
+  background-color: #2196f3;
+}
 .social-link:focus {
   background-color: #2196f3;
 }

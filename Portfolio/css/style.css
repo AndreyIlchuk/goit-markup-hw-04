@@ -383,6 +383,9 @@ button {
 .footer-tel-link:focus {
   color: #2196f3;
 }
+.link-icon:focus {
+  background-color: #2196f3;
+}
 .footer-contacts {
   display: flex;
   flex-direction: column;

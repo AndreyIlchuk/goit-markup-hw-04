@@ -408,13 +408,8 @@ a {
 }
 .social-link {
   margin-right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .link-icon {
-  align-items: center;
-  justify-content: center;
   display: block;
   width: 44px;
   height: 44px;
@@ -564,10 +559,7 @@ a {
 .footer-social {
   margin-left: 70px;
 }
-.footer-social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.social-links {
 }
 .social-title {
   padding-bottom: 20px;
@@ -581,5 +573,7 @@ a {
   color: #ffffff;
 }
 .social-icon {
+  margin-top: 12px;
+  margin-left: 12px;
   fill: #fff;
 }

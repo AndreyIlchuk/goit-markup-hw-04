@@ -383,9 +383,6 @@ button {
 .footer-tel-link:focus {
   color: #2196f3;
 }
-.footer-link-icon:focus {
-  background-color: #2196f3;
-}
 .footer-contacts {
   display: flex;
   flex-direction: column;
@@ -431,6 +428,9 @@ button {
   justify-content: center;
 }
 .social-link:hover {
+  background-color: #2196f3;
+}
+.link-icon:focus {
   background-color: #2196f3;
 }
 .social-link:hover .social-icon {

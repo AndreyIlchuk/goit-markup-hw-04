@@ -438,5 +438,5 @@ button {
 }
 
 .social-icon {
-  fill: #afb1b8;
+  fill: var(--accent-color);
 }

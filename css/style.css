@@ -428,6 +428,9 @@ a {
 .social-link:focus {
   background-color: #2196f3;
 }
+.link-icon:focus {
+  background-color: #2196f3;
+}
 .social-link:hover .social-icon {
   fill: var(--accent-color);
 }
